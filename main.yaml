@@ -1,0 +1,186 @@
+- Route All Well créer par moi Majora_Speed
+- Route conçu pour la 1.0.0 
+- Timer fini après avoir la quête des wells fini
+
+- Great Sky Island 1:
+  - _Korok::GSI15:
+     notes: Faire CSS prendre le chest dup 22 wing puis aller au title vers Ascend
+  - Title:
+     icon: zelda
+     movements:
+      - [379.8125,15000,-1690.4375]
+  - Temple Of Time:
+     notes: Wing FLip et faire Early Sheild sans péter l'épée de légende et faire la manip comme en any% et scan ToT
+     icon: shrine
+     movements: 
+      - [429.125,1500,-1684.25]
+      - [384.5,1500,-1438]
+      - [417,1500,-1354]
+      - [452.5625,1500,-1310.25]
+      - [452.75,1500,-884.0625]
+  # Warping to travel medallion. Order of the coordinates are the same as you would enter with the `coord` property
+  - _Warp::TravelMedallion<429.125,1500,-1684.25>:
+     comment: je mets travel médaillon pour le respawn pour FDC EA
+  - _Shrine::Gutanbac:
+     icon: Ascend
+     notes: Kill Billy et QDS puis finish Ascend
+  - _Shrine::Inisa:
+     icon: Fuse
+     movements:
+      - [26.07, 1527.75, -1503.60]
+     notes: Faire EB version EA puis enter fuse et finish fuse
+     comment: Dans fuse dup 20 bombs et dup 1 sheild
+  - _Shrine::Ukouh:
+     icon: UH
+     notes: Quick FUH/Roms FUH 
+  - Temple Of Time 2: 
+     movements: 
+      - [452.75,1500,-884.0625]
+      - [453,1500,-743.5]
+     icon: shrine
+     notes: ToT  puis tp Recall
+  - _Warp::TravelMedallion<366,1500,-1750.875>
+  - _Shrine::Nachoyah:
+     icon: RECALL
+     notes: Fuse bomb et finir recall
+  - _Warp::Shrine::Ukouh
+  - Great Sky Island:
+     icon: TOUR
+     movements:
+      - [452.75,1500,-884.0625]
+      - [453,1500,-743.5]
+      - [453.625,1500,-635.75]
+- Paraglider Quest:
+  - Infinit Pocket Rocket:
+     icon: IPR
+     color : purple
+     coord: [885.9375,150,-544]
+     notes: Faire IPR et après avoir fini le reload dup 2 arcs et faire un AS Recall
+     comment: .link([Tuto IPR par moi]https://www.youtube.com/watch?v=H8vxZMt-RYY)
+  - _Well::BottomlessPond
+  - _Well::WetlandStableSouth
+  - _Shrine::Tukarok:
+     notes: Juste scans le shrine pour une tp futur
+  - _Well::WetlandStable
+  - _Well::RebonaeBridge
+  - _Well::MabeVillageRuins
+  - _Well::LookoutLanding:
+     notes: Parlé au PNJ pour la quête des puits
+  - Pruha:
+     coord: [-254,150,150]
+     notes: Parlé a Pruha pour la quête du paraglider
+     icon: quest
+  - _Shrine::Kyononis:
+     notes: Scans le shrine pour tp futur
+  - Hozz:
+     notes: Parlé a Hozz pour paraglider
+     coord: [-333.5,150,842]
+     icon: quest
+  - _Warp::Shrine::Kyononis:
+     notes: Zuggle le sheild avant de tp
+  - _Tower::LookoutLanding:
+     notes: Parler a Pruha puis prendre la paravoile
+  - _Warp::Shrine::Nachoyah:
+     notes: Zuggle sheild avant tp
+- PFRW:
+  - Fairy:
+     notes: Après avoir tp recall prendre la large zonai charge et allé a l'ile des fées pour en prendre et dup environ 20 fées et 15 charges
+     color: gold
+     movements:
+      - [491.5,1500,-1611]
+      - [909,1500,-2128.5]
+     icon: fairy
+  - Draconis:
+     coord: [1391,1500,-3238]
+     icon: Dispenser
+     notes: Partir de l'ile vers draconis en IPR w/ paraglider puis use le dispenser pour prendre des carts puis les dups
+  - _Well::LakesideStable
+  - _Shrine::Jojuuu:
+     notes: Prendre le shrine pour une tp
+  - _Well::HighlandStable
+  - _Well::HaranLakefront
+  - _Warp::Shrine::Jojuuu:
+     notes: Zuggle le sheild avant tp
+  - _Well::LurelinVillage
+  - _Shrine::Sifumim:
+     notes: Prendre pour une tp
+- LLLBHPSP :
+  - _Warp::Tower::LookoutLanding:
+     notes: Zuggle le sheild avant de tp
+     color: silver
+  - _Well::MountGustaf
+  - _Well::CarokBridge
+  - _Well::NewSerenneStable
+  - _Shrine::Sinakawak:
+     notes: Prendre le shrine pour une tp
+  - _Well::ElmaKnolls
+  - _Well::IrchPlain
+  - _Well::MarittaExchangeRuins
+  - _Well::RowanPlain
+  - _Well::SnowfieldStable
+  - _Well::TabanthaVillageRuins
+  - _Well::DronocsPass
+  - _Warp::Shrine::Sinakawak:
+     notes: Zuggle sheild avant tp
+  - _Well::TabanthaBridgeStable
+  - Well Quest:
+     coord: [-2953.625,150,530]
+     icon: quest
+     notes: Parler a la meuf pour la quete des wells
+- HFGC :
+  - _Warp::Tower::LookoutLanding:
+     notes: Zuggle sheild avant tp
+     color: red
+  - _Well::MountDaphnes
+  - _Well::AquameLake
+  - _Well::OutskirtStable
+  - _Well::OutskirtHill
+  - _Well::MountNabooru
+  - _Well::GerudoCanyon
+  - _Well::KaraKaraBazaar 
+- LLTRECUM :
+  - _Warp::Shrine::Kyononis:
+     notes: Zuggle sheild avant tp
+     color: green
+  - _Well::HyruleCastleTownRuins
+  - _Well::RauruSettlementRuins
+  - _Well::WoodlandStable
+  - _Well::FoothillStable
+  - _Well::SouthAkkalaStable
+  - _Well::ShadowHamletRuins
+  - _Well::ConstructionSite
+  - _Well::EastAkkalaStable
+- SSUZ:
+  - _Warp::Shrine::Tukarok:
+     notes: Zuggle le sheild avant tp
+     color: orange
+  - _Well::LanayruWetlands
+  - _Well::KakarikoVillage
+  - _Well::RikokaHills
+  - _Well::GopongaVillageRuins
+  - _Well::ZauzIsland
+  - _Well::MoorGarrisonRuins
+  - _Well::TabahlWoods
+- HFPFRW:
+  - _Warp::Shrine::Ukouh:
+     notes: Zuggle sheild avant tp
+     color: blue
+  - _Well::RiversideStable 
+  - _Well::SouthNabiLake
+  - _Well::DuelingPeaksStable
+  - _Well::DeyaVillageRuinsNorth
+  - _Well::DeyaVillageRuins
+  - _Well::DeyaVillageRuinsEast
+  - _Well::PoplaFoothillsNorth
+  - _Well::PoplaFoothillsSouth
+  - _Well::DeyaVillageRuinsSouth
+  - _Well::HillsofBaumer
+- RWML:
+  - _Warp::Shrine::Sifumim:
+     notes: Avant tp zuggle sheild
+     color: chocolate
+  - _Well::ZeldasSecret
+  - _Well::HatenoVillageSouth
+  - _Well::HatenoVillageWest
+  - _Well::HatenoVillageNorth
+  - _Well::HatenoVillageEast

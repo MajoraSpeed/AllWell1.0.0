@@ -1,0 +1,83 @@
+title: All Well v1.0.0
+
+version: 1.0.0
+
+route:
+  use: ./main.yaml
+  
+config:
+- icons:
+    shrine: https://icons.pistonite.org/icon/shrine.zonai.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    UH: https://icons.pistonite.org/icon/rune.ultrahand.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    zelda: https://icons.pistonite.org/icon/character.zelda.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    Fuse: https://icons.pistonite.org/icon/rune.fuse.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    Ascend: https://icons.pistonite.org/icon/rune.ascend.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    RECALL: https://icons.pistonite.org/icon/rune.recall.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    TOUR: https://icons.pistonite.org/icon/location.skyview_tower.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    CASTLE: https://icons.pistonite.org/icon/location.small_castle.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    CASTLE-BIG: https://icons.pistonite.org/icon/location.small_castle.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    SPIRIT-TEMPLE: https://icons.pistonite.org/icon/location.spirit_temple.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    LIGHTING-TEMPL: https://icons.pistonite.org/icon/location.lightning_temple.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    FIRE-TEMPLE: https://icons.pistonite.org/icon/location.fire_temple.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    WATER-TEMPLE: https://icons.pistonite.org/icon/location.water_temple.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    WIND-TEMPLE: https://icons.pistonite.org/icon/location.wind_temple.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    AUTOBUILD: https://icons.pistonite.org/icon/misc.flux_construct.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    HYLIAN-SHEILD: https://icons.pistonite.org/icon/misc.shield.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    ZORA: https://icons.pistonite.org/icon/character.sidon.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    GORON: https://icons.pistonite.org/icon/character.yunobo.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    RIJU: https://icons.pistonite.org/icon/character.riju.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    TEBA: https://icons.pistonite.org/icon/character.teba.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    SHRINE2: https://icons.pistonite.org/icon/shrine.zonai.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    ROA: https://icons.pistonite.org/icon/location.sor.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    CHEST: https://icons.pistonite.org/icon/shrine.blessing.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    SQUARE: https://icons.pistonite.org/icon/misc.double_square.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    HAMMER: https://icons.pistonite.org/icon/misc.hammer.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    koroks: https://icons.pistonite.org/icon/misc.korok.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    monstres: https://icons.pistonite.org/icon/misc.monster.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    fairy: https://icons.pistonite.org/icon/character.great_fairy.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    zonai-orb: https://icons.pistonite.org/icon/misc.flux_construct.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    deepths: https://icons.pistonite.org/icon/misc.square.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+    pruha: https://icons.pistonite.org/icon/character.impa.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    ABCS: https://icons.pistonite.org/icon/rune.master_cycle_zero.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    frame: https://icons.pistonite.org/icon/misc.frame.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    WST: https://icons.pistonite.org/icon/misc.shield.circle.8c5e28.ff9900.8c5e28.ff9900.8c5e28.ff9900.png
+    LEGS: https://icons.pistonite.org/icon/location.lab.none.613b75.b96cf5.613b75.b96cf5.613b75.b96cf5.png
+    ARM: https://icons.pistonite.org/icon/shrine.sword.none.613b75.b96cf5.613b75.b96cf5.613b75.b96cf5.png
+    FIGHT: https://icons.pistonite.org/icon/character.ganon.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+    terminal: https://icons.pistonite.org/icon/misc.flux_construct.none.69a2d5.c1fefe.8c5e28.ffffb5.8c5e28.ffffb5.png
+    MNF: https://icons.pistonite.org/icon/misc.hammer.none.cfa240.000000.cfa240.000000.cfa240.000000.png
+    shrinescan: https://icons.pistonite.org/icon/shrine.zonai.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+    TOWER: https://icons.pistonite.org/icon/location.skyview_tower.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    cook: https://icons.pistonite.org/icon/misc.pot.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+    zonai-dup: https://icons.pistonite.org/icon/shrine.blessing.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+    main-quest: https://icons.pistonite.org/icon/character.zelda.none.8c5e28.ffffb5.8c5e28.ffffb5.8c5e28.ffffb5.png
+    quest: https://icons.pistonite.org/icon/character.zelda.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+    statue: https://icons.pistonite.org/icon/location.house.none.2a767d.59ffff.2a767d.59ffff.2a767d.59ffff.png
+    lieux: https://icons.pistonite.org/icon/location.house.minus.613b75.b96cf5.613b75.b96cf5.613b75.ffde00.png
+    snap: https://icons.pistonite.org/icon/rune.camera.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+    autobuild: https://icons.pistonite.org/icon/rune.master_cycle_zero.none.613b75.b96cf5.613b75.b96cf5.613b75.b96cf5.png
+    zonaite-chest: https://icons.pistonite.org/icon/shrine.blessing.none.2a767d.59ffff.2a767d.59ffff.2a767d.59ffff.png
+    kohga: https://icons.pistonite.org/icon/character.kohga.none.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+    BID: https://icons.pistonite.org/icon/misc.apple.plus.2a767d.59ffff.2a767d.59ffff.2a767d.59ffff.png
+    crystaux: https://icons.pistonite.org/icon/misc.square.none.2a767d.59ffff.2a767d.59ffff.2a767d.59ffff.png
+    Jetpack: https://icons.pistonite.org/icon/misc.hammer.plus.2a767d.59ffff.2a767d.59ffff.2a767d.59ffff.png
+    monster-orde: https://icons.pistonite.org/icon/misc.monster.plus.613b75.b96cf5.613b75.b96cf5.613b75.ffde00.png
+    npc: https://icons.pistonite.org/icon/character.teba.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+    cryo-fruit: https://icons.pistonite.org/icon/misc.apple.none.69a2d5.c1fefe.69a2d5.fdfdfd.69a2d5.fdfdfd.png
+    Dispenser: https://icons.pistonite.org/icon/misc.flux_construct.none.2a767d.59ffff.2a767d.59ffff.2a767d.59ffff.png
+    Crystal: https://icons.pistonite.org/icon/location.lab.none.2a767d.59ffff.2a767d.59ffff.2a767d.59ffff.png
+    CS: https://icons.pistonite.org/icon/rune.master_cycle_zero.none.568c28.c8e6af.568c28.fdfdfd.568c28.fdfdfd.png
+    shop: https://icons.pistonite.org/icon/location.house.plus.2a767d.59ffff.2a767d.59ffff.2a767d.59ffff.png
+    fish: https://icons.pistonite.org/icon/misc.apple.none.2a767d.59ffff.2a767d.59ffff.2a767d.59ffff.png
+    hestu: https://icons.pistonite.org/icon/character.hestu.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+    dodo: https://icons.pistonite.org/icon/misc.square.none.633830.f0673a.633830.f0673a.633830.f0673a.png
+    frog: https://icons.pistonite.org/icon/rune.cryonis.none.69a2d5.c1fefe.69a2d5.c1fefe.69a2d5.c1fefe.png
+    fleur: https://icons.pistonite.org/icon/misc.apple.none.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+    DD: https://icons.pistonite.org/icon/character.demon_king.circle.f24c99.ffc0fa.f24c99.ffc0fa.f24c99.ffc0fa.png
+    IPR: https://icons.pistonite.org/icon/misc.shield.circle.568c28.c8e6af.568c28.c8e6af.568c28.c8e6af.png
+
+- use: Pistonight/celer-presets/totk/full.yaml
+- plugins:
+  - use: link
+  - use: split-format
+  - use: variables
